@@ -134,7 +134,7 @@ class GirlVoiceModule(Module):
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
-    
+
     @command()
     async def спок_cmd(self, event):
         reply = await event.get_reply_message()
